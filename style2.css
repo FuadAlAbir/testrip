@@ -1,0 +1,60 @@
+/*This is Fuad Al Abir*/
+#intro {
+  font-family: "PT sans";
+  color: #818181;
+  padding: 0px 25px 0px 25px;
+}
+
+/*Website Font*/
+body {
+    font-family: "PT sans", sans-serif;
+}
+
+.avatar {
+    border-radius: 100%;
+    padding: 15px 55px 15px 55px;
+}
+
+.roar_logo {
+    padding: 0px 0px 0px 0px;
+}
+
+
+/*sidenav style*/
+.sidenav {
+    height: 100%;
+    width: 315px;
+    position: fixed;
+    padding: 20px 0px 20px 0px;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 0px 10px 10px 60px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+.current a {
+    background-color: #dadada28;
+}
+
+#menu a:link, a:visited {
+    color: #818181;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+#menu a:hover, a:active {
+    color: white;
+    background-color: #635d5c;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

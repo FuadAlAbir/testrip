@@ -1,0 +1,54 @@
+#fb {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#fb a:link, a:visited {
+    color: #4134fc;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#fb a:hover, a:active {
+    color: white;
+    background-color: #3b5998;
+}
+
+#li {
+    padding-left: 100px;
+    display: inline-block;
+}
+#li a:link, a:visited {
+    color: #00A0DC;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#li a:hover, a:active {
+    color: white;
+    background-color: #0077B5;
+}
+
+#git {
+    padding-left: 100px;
+    display: inline-block;
+}
+
+#git a:link, a:visited {
+    color: #818181;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+}
+#git a:hover, a:active {
+    color: #f5f5f5;
+    background-color: #333;
+}
+
+#mail {
+    padding: 40px 20px 20px 25px;
+    display: inline-block;
+}
